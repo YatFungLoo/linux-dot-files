@@ -1,0 +1,15 @@
+# ignore everything
+*
+
+# expet gitignore
+!.gitignore
+
+# except dot files
+!.inputrc
+!.bash_aliases
+!.bashrc
+!.vimrc
+!.git-prompt.sh
+!.clang-format
+!.config/alacritty/
+
