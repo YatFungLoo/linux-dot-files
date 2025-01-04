@@ -89,6 +89,16 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# for DBS version of ls
+osname="$(uname)"
+case $osname in
+    Darwin) alias ls='ls -G'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto';;
+*);;
+esac
+
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
@@ -121,3 +131,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+. "$HOME/.cargo/env"
+
+export BASH_SILENCE_DEPRECATION_WARNING=1
