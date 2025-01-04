@@ -11,9 +11,13 @@ import = [
 ]
 
 [window]
+padding = { x = 3, y = 3 }
+dynamic_padding = true
+blur = false
+opacity = 0.9
 decorations = "Full"
-opacity = 0.95
 decorations_theme_variant = "Dark"
+option_as_alt = "Both"
 
 [bell]
 animation = "EaseOut"
@@ -21,20 +25,20 @@ duration = 150
 color = "#4d7d6a"
 
 [font]
-# size = 10.0
+size = 13.0
 
-[font.bold]
-family = "DejaVu Sans Mono"
-style = "Heavy"
+# [font.bold]
+# family = "DejaVu Sans Mono"
+# style = "Heavy"
 
-[font.bold_italic]
-family = "DejaVu Sans Mono"
-style = "Heavy Italic"
+# [font.bold_italic]
+# family = "DejaVu Sans Mono"
+# style = "Heavy Italic"
 
-[font.italic]
-family = "DejaVu Sans Mono"
-style = "Medium Italic"
+# [font.italic]
+# family = "DejaVu Sans Mono"
+# style = "Medium Italic"
 
-[font.normal]
-family = "DejaVu Sans Mono"
-style = "Medium"
+# [font.normal]
+# family = "DejaVu Sans Mono"
+# style = "Medium"
