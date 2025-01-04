@@ -11,5 +11,4 @@
 !.vimrc
 !.git-prompt.sh
 !.clang-format
-!.config/alacritty/
-
+!.config/alacritty/alacritty.toml
