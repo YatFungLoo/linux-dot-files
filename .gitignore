@@ -10,5 +10,6 @@
 !.bashrc
 !.vimrc
 !.git-prompt.sh
+!.git-completion.bash
 !.clang-format
 !.config/alacritty/alacritty.toml

@@ -59,6 +59,11 @@ fi
 # Note: source git-prompt from home dir.
 source ~/.git-prompt.sh
 
+# Note: git-completion setup.
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 # Note: only changing color_prompt
 if [ "$color_prompt" = yes ]; then
     # default PS1:
