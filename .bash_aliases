@@ -1,5 +1,5 @@
 # custom keybindings
-alias s='git status'
+alias s='git status -sb'
 alias git_def_config='git config user.email "" && git config user.name ""'
 alias em='emacs -nw'
 alias sd="cd ~ && cd \$(find * -type d | fzf --height 40%)"
